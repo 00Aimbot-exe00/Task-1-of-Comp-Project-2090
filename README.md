@@ -1,6 +1,16 @@
 # Comp-Project-2090
 README: Personal Finance Dashboard
 
+Quick Start:
+------------
+Download through the terminal 
+ python3 -m venv venv
+ python -m pip install --upgrade pip
+ python -m pip install PyQt6 matplotlib
+ 
+Run the app
+ python finance_app.py
+
 Overview:
 ---------
 This project provides a personal finance dashboard interface for tracking
@@ -40,15 +50,7 @@ Installation:
 Run the Python script to launch a Ptqt6 GUI that displays the dashboard.
 The interface is organized into frames for income, expenses, assets, and alerts.
 
-Quick Start:
-------------
-Download through the terminal 
- python3 -m venv venv
- python -m pip install --upgrade pip
- python -m pip install PyQt6 matplotlib
- 
-Run the app
- python finance_app.py
+
 
 
 
