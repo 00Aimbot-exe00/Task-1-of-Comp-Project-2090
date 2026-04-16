@@ -1,15 +1,23 @@
 # Comp-Project-2090
 README: Personal Finance Dashboard
+Installation: 
+-------------
+Run the Python script to launch a Ptqt6 GUI that displays the dashboard.
+The interface is organized into frames for income, expenses,budgeting, investments, Financial goal and debts.
 
 Quick Start:
 ------------
 Download through the terminal 
+ check if pip is installed 
+ python3 -m pip --version
+ python3 -m ensurepip --default-pip
+ 
  python3 -m venv venv
- python -m pip install --upgrade pip
- python -m pip install PyQt6 matplotlib
+ pip install --upgrade pip
+ pip install PyQt6 matplotlib numpy
  
 Run the app
- python finance_app.py
+ python finance_ui.py
 
 Overview:
 ---------
@@ -35,20 +43,25 @@ Contents:
   * Transportation
   * Pets (Routine Vet, Food, Treats, Boarding)
 
-- Assets:
+- Inveestments:
   * Gold
   * Stock
   * Warehouse
   * Land
+ 
+ - Debts:
+  * Loans
+  * Mortgage
+    
+- Financial:
+  * Amount of money
 
+ 
 - Progress Tracking:
   * Monthly income goals
   * Expense vs. income comparison
  
-Installation: 
--------------
-Run the Python script to launch a Ptqt6 GUI that displays the dashboard.
-The interface is organized into frames for income, expenses, assets, and alerts.
+
 
 
 
